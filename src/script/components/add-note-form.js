@@ -114,6 +114,27 @@ class AddNoteForm extends HTMLElement {
                 <button type="submit">Tambahkan Catatan</button>
             </form>
         `;
+
+        const titleInput = this._shadowRoot.querySelector('#titleForm');
+        if (titleInput) {
+            titleInput.addEventListener('input', (event) => {
+                if (event.target.value.length > 0) {
+                    event.target.style.borderColor = '#2563eb';
+                } else {
+                    event.target.style.borderColor = '#d0d';
+                }
+            });
+        }
+        const descInput = this._shadowRoot.querySelector('#descriptionForm');
+        if (descInput) {
+            descInput.addEventListener('input', (event) => {
+                if (event.target.value.length > 0) {
+                    event.target.style.borderColor = '#2563eb';
+                } else {
+                    event.target.style.borderColor = '#d0d';
+                }
+            });
+        }
     }
 }
 

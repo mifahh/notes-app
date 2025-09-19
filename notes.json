@@ -5,14 +5,14 @@
       "title": "Welcome to Notes, Dimas!",
       "body": "Welcome to Notes! This is your first note. You can archive it, delete it, or create new ones.",
       "createdAt": "2022-07-28T10:03:12.594Z",
-      "archived": false
+      "archived": true
     },
     {
       "id": "notes-aB-cdefg12345",
       "title": "Meeting Agenda",
       "body": "Discuss project updates and assign tasks for the upcoming week.",
       "createdAt": "2022-08-05T15:30:00.000Z",
-      "archived": false
+      "archived": true
     },
     {
       "id": "notes-XyZ-789012345",
@@ -26,7 +26,7 @@
       "title": "Personal Goals",
       "body": "Read two books per month, exercise three times a week, learn a new language.",
       "createdAt": "2022-08-15T18:12:55.789Z",
-      "archived": false
+      "archived": true
     },
     {
       "id": "notes-LMN-456789",
@@ -96,6 +96,27 @@
       "title": "Holiday Plans",
       "body": "Research and plan for the upcoming holiday destination.",
       "createdAt": "2022-10-20T16:45:00.000Z",
+      "archived": false
+    },
+    {
+      "id": "notes-plp7uf-672813",
+      "title": "",
+      "body": "",
+      "createdAt": "2025-09-19T02:59:12.890Z",
+      "archived": false
+    },
+    {
+      "id": "notes-0klkq2-897483",
+      "title": "",
+      "body": "",
+      "createdAt": "2025-09-19T02:59:13.758Z",
+      "archived": false
+    },
+    {
+      "id": "notes-nyof9e-495196",
+      "title": "",
+      "body": "",
+      "createdAt": "2025-09-19T02:59:14.548Z",
       "archived": false
     }
   ]

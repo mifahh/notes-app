@@ -67,6 +67,7 @@ class NoteItem extends HTMLElement {
 
   disconnectedCallback(){
     this._shadowRoot.querySelector('#deleteNote').removeEventListener('click',  this._onClickEvent.bind(this));
+    this._shadowRoot.querySelector('#archiveNote').removeEventListener('click', this._onArchiveEvent.bind(this));
   }
 
   async _onClickEvent(){
@@ -76,17 +77,44 @@ class NoteItem extends HTMLElement {
     this.dispatchEvent(new Event(this._clickEvent));
   }
 
+  async _onArchiveEvent(){
+    if (!this._note) return;
+    this._note.archived = !this._note.archived;
+    await Notes.archiveNote(this._note.id, this._note.archived);
+    this.dispatchEvent(new Event(this._clickEvent));
+  }
+
   render() {
     this._updateStyle();
     if (!this._note) return;
 
+    const isArchived = this._note.archived;
+    const archiveText = isArchived ? "Unarchive" : "Archive";
+    const archiveStatus = isArchived ? "📦 Diarsipkan" : "📝 Aktif";
+    
     this._shadowRoot.innerHTML = `
       ${this._style.outerHTML}
-      <h1>${this._note.title}</h1>
-      <h2>${this._note.createdAt}</h2>
-      <p readonly>${this._note.body}</p>
-      <button id=deleteNote>hapus</button>
+      <div class="note-card">
+        <h1>${this._note.title}</h1>
+        <h2>${this._note.createdAt}</h2>
+        <p readonly>${this._note.body}</p>
+        <span style="font-size:0.95em;color:${isArchived ? '#888' : '#2563eb'}">${archiveStatus}</span>
+        <button id="archiveNote">${archiveText}</button>
+        <button id="deleteNote">Hapus</button>
+      </div>
     `;
+    
+    // Event listener untuk arsip/unarsip
+    const archiveBtn = this._shadowRoot.querySelector('#archiveNote');
+    if (archiveBtn) {
+      archiveBtn.addEventListener('click', this._onArchiveEvent.bind(this));
+    }
+  
+    // Event listener untuk hapus
+    const deleteBtn = this._shadowRoot.querySelector('#deleteNote');
+    if (deleteBtn) {
+      deleteBtn.addEventListener('click', this._onClickEvent.bind(this));
+    }
   }
 }
 

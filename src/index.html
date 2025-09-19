@@ -14,13 +14,22 @@
             <add-note-form></add-note-form>
         </div>
         <div id="noteListContainer" class="note-list-container">
-            <div id="loading">
-                Loading
-            </div>
             <note-list></note-list>
+            <div class="plus-rectangle" id="loading">
+                <span class="plus-sign">+</span>
+            </div>
         </div>
 
         <script type="module" src="/src/app.js"></script>
+        <script type="module">
+            import { animate } from "https://cdn.jsdelivr.net/npm/motion@12.23.12/+esm"
+
+            animate(
+                ".plus-rectangle",
+                { rotate: 90 },
+                { type: "spring", repeat: Infinity, repeatDelay: 0.2 }
+            )
+        </script>
     </section>
 </body>
 </html>

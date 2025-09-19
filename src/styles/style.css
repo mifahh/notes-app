@@ -15,6 +15,22 @@
   box-shadow: 0 2px 16px rgba(0,0,0,0.06);
 }
 
+.plus-rectangle {
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.plus-sign {
+  font-size: 5.5rem;
+  color: #2563eb;
+  font-weight: bold;
+  line-height: 1;
+  user-select: none;
+}
+
 @media (max-width: 600px) {
   .note-list-container {
     padding: 18px 8px;

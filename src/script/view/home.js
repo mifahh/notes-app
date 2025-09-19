@@ -10,7 +10,8 @@ const home = async () => {
     noteListElement.innerHTML = "";
     notesData.forEach((note) => {
       const noteItemElement = document.createElement("note-item");
-      noteItemElement.note = note; // gunakan properti note
+      noteItemElement.note = note; // mengisi properti note
+      noteItemElement.setAttribute('slot', noteItemElement.note.archived ? 'archive' : 'active');
       noteItemElement.addEventListener('click', async () => {
         await displayResult();
       })

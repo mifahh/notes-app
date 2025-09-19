@@ -1,5 +1,5 @@
 export function showLoading(element){
-    element.style.display = 'block';
+    element.style.display = 'flex';
 }
 
 export function hideLoading(element){
