@@ -5,7 +5,7 @@ class Notes {
   static async getAll() {
     showLoading(loading);
     try {
-      const response = await fetch("http://localhost:3000/notesData");
+      const response = await fetch("https://my-json-server.typicode.com/mifahh/notes-app/notesData");
       const responseJson = await response.json();
       return responseJson;
     } catch (error){
@@ -19,7 +19,7 @@ class Notes {
   static async addNote(note) {
     showLoading(loading);
     try {
-      const response = await fetch("http://localhost:3000/notesData", {
+      const response = await fetch("https://my-json-server.typicode.com/mifahh/notes-app/notesData", {
         method: "POST",
         headers: { "Content-Type": "Application/json" },
         body: JSON.stringify(note),
@@ -38,7 +38,7 @@ class Notes {
     showLoading(loading);
     try {
       const response = await fetch(
-        `http://localhost:3000/notesData/${noteId}`,
+        `https://my-json-server.typicode.com/mifahh/notes-app/notesData/${noteId}`,
         { method: "DELETE" }
       );
       const responseJson = await response.json();
@@ -52,7 +52,7 @@ class Notes {
 
   static async archiveNote(noteId, isArchived){
     try {
-      const response = await fetch(`http://localhost:3000/notesData/${noteId}`, {
+      const response = await fetch(`https://my-json-server.typicode.com/mifahh/notes-app/notesData/${noteId}`, {
         method: "PATCH",
         headers: { "Content-Type": "Application/json" },
         body: JSON.stringify({archived: isArchived}),
