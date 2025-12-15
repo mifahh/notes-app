@@ -2,121 +2,121 @@
   "notesData": [
     {
       "id": "notes-jT-jjsyz61J8XKiI",
-      "title": "Welcome to Notes, Dimas!",
-      "body": "Welcome to Notes! This is your first note. You can archive it, delete it, or create new ones.",
-      "createdAt": "2022-07-28T10:03:12.594Z",
+      "title": "Belanja Sembako",
+      "body": "Beras 5kg, Minyak goreng 2L, Gula pasir 1kg, Kopi Kapal Api.",
+      "createdAt": "2025-12-01T12:03:12.594Z",
       "archived": true
     },
     {
       "id": "notes-aB-cdefg12345",
-      "title": "Meeting Agenda",
-      "body": "Discuss project updates and assign tasks for the upcoming week.",
-      "createdAt": "2022-08-05T15:30:00.000Z",
+      "title": "Barang Harus Dibeli",
+      "body": "Sabun Giv, Lifeboy, Pepsodent, Rinso, Tisu.",
+      "createdAt": "2025-12-01T15:30:00.000Z",
       "archived": true
     },
     {
       "id": "notes-XyZ-789012345",
-      "title": "Shopping List",
-      "body": "Milk, eggs, bread, fruits, and vegetables.",
-      "createdAt": "2022-08-10T08:45:23.120Z",
+      "title": "Transaksi Toko Sembako Pak Yanto",
+      "body": "Pembelian Rp250.000 (beras, telur, minyak goreng, gula, Kopi Kapal Api 1 renteng).",
+      "createdAt": "2025-12-02T12:45:23.120Z",
       "archived": false
     },
     {
       "id": "notes-1a-2b3c4d5e6f",
-      "title": "Personal Goals",
-      "body": "Read two books per month, exercise three times a week, learn a new language.",
-      "createdAt": "2022-08-15T18:12:55.789Z",
+      "title": "Catatan Hutang De Tami",
+      "body": "Hutang Rp50.000 (rokok Surya 12 & kopi Kapal Api 1 renteng). Jatuh tempo 20 Desember.",
+      "createdAt": "2025-12-02T18:12:55.789Z",
       "archived": true
     },
     {
       "id": "notes-LMN-456789",
-      "title": "Recipe: Spaghetti Bolognese",
-      "body": "Ingredients: ground beef, tomatoes, onions, garlic, pasta. Steps:...",
-      "createdAt": "2022-08-20T12:30:40.200Z",
+      "title": "Transaksi Sembako Pak Yanto",
+      "body": "Pembelian Rp120.000 (mie Sedap, susu Frisian Flag, kecap Bango)",
+      "createdAt": "2025-12-03T12:30:40.200Z",
       "archived": false
     },
     {
       "id": "notes-QwErTyUiOp",
-      "title": "Workout Routine",
-      "body": "Monday: Cardio, Tuesday: Upper body, Wednesday: Rest, Thursday: Lower body, Friday: Cardio.",
-      "createdAt": "2022-08-25T09:15:17.890Z",
+      "title": "Beli Galon Air",
+      "body": "Aqua galon Rp20.000",
+      "createdAt": "2025-12-03T12:15:17.890Z",
       "archived": false
     },
     {
       "id": "notes-abcdef-987654",
-      "title": "Book Recommendations",
-      "body": "1. 'The Alchemist' by Paulo Coelho\n2. '1984' by George Orwell\n3. 'To Kill a Mockingbird' by Harper Lee",
-      "createdAt": "2022-09-01T14:20:05.321Z",
+      "title": "Belanja Sembako",
+      "body": "Beras 5kg, Minyak goreng 2L, Gula pasir 1kg, Kopi sachet.",
+      "createdAt": "2025-12-03T14:20:05.321Z",
       "archived": false
     },
     {
       "id": "notes-zyxwv-54321",
-      "title": "Daily Reflections",
-      "body": "Write down three positive things that happened today and one thing to improve tomorrow.",
-      "createdAt": "2022-09-07T20:40:30.150Z",
+      "title": "Transaksi Sembako Pak Arif",
+      "body": "Pembelian Rp36.000 (Rokok La Mild).",
+      "createdAt": "2025-12-03T20:40:30.150Z",
       "archived": false
     },
     {
       "id": "notes-poiuyt-987654",
-      "title": "Travel Bucket List",
-      "body": "1. Paris, France\n2. Kyoto, Japan\n3. Santorini, Greece\n4. New York City, USA",
-      "createdAt": "2022-09-15T11:55:44.678Z",
+      "title": "Transaksi Sembako Bu Sari",
+      "body": "Pembelian Rp.40.000 \n1. Minyak\n2. Sabun Giv\n3. Pepsodent\n4. Mie Indomie",
+      "createdAt": "2025-12-04T11:55:44.678Z",
       "archived": false
     },
     {
       "id": "notes-asdfgh-123456",
-      "title": "Coding Projects",
-      "body": "1. Build a personal website\n2. Create a mobile app\n3. Contribute to an open-source project",
-      "createdAt": "2022-09-20T17:10:12.987Z",
+      "title": "Belanja Sembako",
+      "body": "1. Kecap Bango\n2. Saos Indofood\n3. Mie Sedap",
+      "createdAt": "2025-12-04T17:12:12.987Z",
       "archived": false
     },
     {
       "id": "notes-5678-abcd-efgh",
-      "title": "Project Deadline",
-      "body": "Complete project tasks by the deadline on October 1st.",
-      "createdAt": "2022-09-28T14:00:00.000Z",
+      "title": "Transaksi Sembako mbak vidia",
+      "body": "Pembelian Rp.26.000 \n1. Mie Indomie Ayam Bawang\n2. Sabun Giv\n3. Pepsodent\n4. Rinso",
+      "createdAt": "2025-12-05T14:00:00.000Z",
       "archived": false
     },
     {
       "id": "notes-9876-wxyz-1234",
-      "title": "Health Checkup",
-      "body": "Schedule a routine health checkup with the doctor.",
-      "createdAt": "2022-10-05T09:30:45.600Z",
+      "title": "Catatan Hutang Bu Har",
+      "body": "Hutang Rp5.000 (kurang dalam pembelian rokok Surya 12 & kopi Kapal Api 1 renteng). Jatuh tempo 7 Desember.",
+      "createdAt": "2025-12-06T12:30:45.600Z",
       "archived": false
     },
     {
       "id": "notes-qwerty-8765-4321",
-      "title": "Financial Goals",
-      "body": "1. Create a monthly budget\n2. Save 20% of income\n3. Invest in a retirement fund.",
-      "createdAt": "2022-10-12T12:15:30.890Z",
+      "title": "Pembelian Sembako Mas Andri",
+      "body": "1. Beras\n2. Minyak\n3. Mie Sedap\n4. Gula Pasir\n total Rp50.000",
+      "createdAt": "2025-12-07T12:15:30.890Z",
       "archived": false
     },
     {
       "id": "notes-98765-54321-12345",
-      "title": "Holiday Plans",
-      "body": "Research and plan for the upcoming holiday destination.",
-      "createdAt": "2022-10-20T16:45:00.000Z",
+      "title": "Pembayaran Hutang Bu Har",
+      "body": "Hutang Rp5.000 Lunas pada 7 Desember.",
+      "createdAt": "2025-12-07T16:45:00.000Z",
       "archived": false
     },
     {
       "id": "notes-plp7uf-672813",
-      "title": "",
-      "body": "",
-      "createdAt": "2025-09-19T02:59:12.890Z",
+      "title": "Transaksi Sembako Mas Candra",
+      "body": "Pembelian Rp.56.000 \n1. Rokok Surya 12\n2. Rokok Jisamsoe",
+      "createdAt": "2025-12-08T08:59:12.890Z",
       "archived": false
     },
     {
       "id": "notes-0klkq2-897483",
-      "title": "",
-      "body": "",
-      "createdAt": "2025-09-19T02:59:13.758Z",
+      "title": "Transaksi Sembako Pembeli",
+      "body": "Pembelian Rp.22.000 \n1. Club Gelas 1 dus",
+      "createdAt": "2025-12-08T09:59:13.758Z",
       "archived": false
     },
     {
       "id": "notes-nyof9e-495196",
-      "title": "",
-      "body": "",
-      "createdAt": "2025-09-19T02:59:14.548Z",
+      "title": "Pembayaran Hutang Warkop Semar",
+      "body": "Bayar hutang Rp50.000 pada 10 Desember.",
+      "createdAt": "2025-12-010T11:59:14.548Z",
       "archived": false
     }
   ]
